@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Noto+Serif&family=Play&display=swap');
+
+body{
+    margin: auto;
+    font-family: "Playfair Display", sans-serif;
+}
+
+nav{
+    background-color:rgba(0, 0, 0, 0.05);
+    height: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+}
+
+nav > span{
+    color: #fcfcfc;
+    text-align: left;
+}
+
+nav > span > h2{
+    font-size: 40px;
+    padding: 20px;
+    text-shadow: 1px 1px black;
+}
+.image {
+    background-image: url('./rachel-park-hrlvr2ZlUNk-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.covering{
+    background-color:rgba(0, 0, 0, 0.3);
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.covering > span > h1{
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+}
+
+@media screen and (max-width: 513px) {
+    .covering > span > h1{
+        font-size: 20px;
+        margin: 3px;
+        padding: 3px;
+    }
+
+    nav > span > h2{
+        margin-bottom: 100px;
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .covering > span > h1{
+        font-size: 30px;
+        margin: 3px;
+        padding: 3px;
+    }
+
+    nav > span > h2{
+        margin-bottom: 100px;
+        font-size: 25px;
+        padding: 10px;
+    }
+}
+
+.btn-group {
+    max-width: 100%;
+    margin: 3px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fcfcfc;
+    box-sizing: content-box;
+    overflow: hidden;
+    text-align: center;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    width: 90%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+
+product-list {
+    width: 100%;
+}
+
+category-list {
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: "Alegreya Sans";
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-top: 0.1em solid black;
+}
